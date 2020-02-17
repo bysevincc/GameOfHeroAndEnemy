@@ -12,23 +12,23 @@ Lion is Enemy<br/>
 Zombie is Enemy<br/>
 Bug has 50 hp<br/>
 Bug attack is 2<br/>
-Lion has 100 hp
-Lion attack is 15
-Zombie has 300 hp
-Zombie attack is 7
-There is a Zombie at position 1681 
-There is a Bug at position 276
-There is a Bug at position 489
-There is a Lion at position 1527
-There is a Lion at position 2865
-There is a Zombie at position 3523
+Lion has 100 hp<br/>
+Lion attack is 15<br/>
+Zombie has 300 hp<br/>
+Zombie attack is 7<br/>
+There is a Zombie at position 1681 <br/>
+There is a Bug at position 276<br/>
+There is a Bug at position 489<br/>
+There is a Lion at position 1527<br/>
+There is a Lion at position 2865<br/>
+There is a Zombie at position 3523<br/>
 
 ## beklenilen çıktı;
-Hero started journey with 1000 HP!
-Hero defeated Bug with 990 HP remaining
-Hero defeated Bug with 980 HP remaining
-Hero defeated Lion with 830 HP remaining
-Hero defeated Zombie with 620 HP remaining
-Hero defeated Lion with 470 HP remaining
-Hero defeated Zombie with 260 HP remaining
-Hero survived!
+Hero started journey with 1000 HP!<br/>
+Hero defeated Bug with 990 HP remaining<br/>
+Hero defeated Bug with 980 HP remaining<br/>
+Hero defeated Lion with 830 HP remaining<br/>
+Hero defeated Zombie with 620 HP remaining<br/>
+Hero defeated Lion with 470 HP remaining<br/>
+Hero defeated Zombie with 260 HP remaining<br/>
+Hero survived!<br/>
