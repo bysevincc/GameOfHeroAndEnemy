@@ -4,19 +4,19 @@ Files dosyasının içinde ki input.txt de bulunan girdilere göre output.txt do
 
 ## Orneğin;
 ## input.txt
-Resources are 5000 meters away
-Hero has 1000 hp
-Hero attack is 10
-Bug is Enemy
-Lion is Enemy
-Zombie is Enemy
-Bug has 50 hp
-Bug attack is 2
+Resources are 5000 meters away <br/>
+Hero has 1000 hp<br/>
+Hero attack is 10<br/>
+Bug is Enemy<br/>
+Lion is Enemy<br/>
+Zombie is Enemy<br/>
+Bug has 50 hp<br/>
+Bug attack is 2<br/>
 Lion has 100 hp
 Lion attack is 15
 Zombie has 300 hp
 Zombie attack is 7
-There is a Zombie at position 1681
+There is a Zombie at position 1681 
 There is a Bug at position 276
 There is a Bug at position 489
 There is a Lion at position 1527
