@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: HeroGame
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ACER
+Implementation-Vendor-Id: com.sevinc
+Build-Jdk: 1.8.0_152
+Implementation-URL: https://github.com/Xlongshu/maven-starters/starter
+ -dependencies/java-starter/HeroGame
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
