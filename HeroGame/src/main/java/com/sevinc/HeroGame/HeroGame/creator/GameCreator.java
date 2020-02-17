@@ -43,30 +43,30 @@ public class GameCreator { // Application a özel , file dan input  alıp game o
 	}
 
 	private void findElement(String line) {
-		if (line.contains("Hero") && line.contains("hp")) {
-			int healtPoint = getIntegerValue(line);
+		if (line.contains("Hero") && line.contains("hp")) { // satırda Hero ve hp kelimelerini arıyor
+			int healtPoint = getIntegerValue(line);// bulduğunda hero nun healthpointi set et
 			currentHero.setHealtPoint(healtPoint);
-		} else if (line.contains("Hero") && line.contains("attack")) {
-			int attack = getIntegerValue(line);
-			currentHero.setAttack(attack);
-		} else if (line.contains("Resources")) {
-			int resourceMeter = getIntegerValue(line);
+		} else if (line.contains("Hero") && line.contains("attack")) { //satırda Hero ve attack kelimelerini arıyor
+			int attack = getIntegerValue(line);			// bulduğunda Hero nun attackını set et
+			currentHero.setAttack(attack);				//
+		} else if (line.contains("Resources")) {			// satırda Resources kelimesini arıyor
+			int resourceMeter = getIntegerValue(line);		//buldugunda routemeter e set et
 			currentHero.setRouteMeter(resourceMeter);
-		} else if (line.contains("Enemy")) {
+		} else if (line.contains("Enemy")) {				//satırda enemy ara varsa adını set et listeye
 			Enemy enemy = new Enemy();
 			enemy.setName(line.split(" ")[0]);
 			enemyTypeList.add(enemy);
-		} else if (line.contains("hp")) {
+		} else if (line.contains("hp")) {				// satırda sadece hp var ise enemy nin hp sidir, set et
 			String enemyName = line.split(" ")[0];
 			Enemy enemy = enemyTypeList.stream().filter(e -> e.getName().equals(enemyName)).collect(Collectors.toList())
 					.get(0);
 			enemy.setHealthPoint(getIntegerValue(line));
-		} else if (line.contains("attack")) {
+		} else if (line.contains("attack")) {				// satırda sadece attack var ise enemy nin attack ı, set et
 			String enemyName = line.split(" ")[0];
 			Enemy enemy = enemyTypeList.stream().filter(e -> e.getName().equals(enemyName)).collect(Collectors.toList())
 					.get(0);
 			enemy.setAttack(getIntegerValue(line));
-		} else if (line.contains("There") && line.contains("position")) {
+		} else if (line.contains("There") && line.contains("position")) { //satırda There ve position var ise enemy nin position udur , set et
 			String enemyName = line.split(" ")[3];
 			Enemy enemy = enemyTypeList.stream().filter(e -> e.getName().equals(enemyName)).collect(Collectors.toList())
 					.get(0);
